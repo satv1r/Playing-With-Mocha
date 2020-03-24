@@ -17,4 +17,9 @@ describe("Math", () => {
       assert.equal(4, MathStuff.multiply(2, 2));
     });
   });
+  describe(".divison()", () => {
+    it("10 / 2 returns 5", () => {
+      assert.equal(5, MathStuff.division(10, 2));
+    });
+  });
 });
