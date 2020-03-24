@@ -20,6 +20,14 @@ describe("Math", () => {
     it("5 - 2 returns 3", () => {
       assert.equal(3, MathStuff.subtract(5, 2));
     });
+
+    it("3 - 3 returns 0", () => {
+      assert.equal(0, MathStuff.subtract(3, 3));
+    });
+
+    it("10 - 20 returns 0", () => {
+      assert.equal(-10, MathStuff.subtract(10, 20));
+    });
   });
 
   describe(".multiply()", () => {
