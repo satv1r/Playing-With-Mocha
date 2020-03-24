@@ -39,5 +39,13 @@ describe("Math", () => {
     it("10 / 2 returns 5", () => {
       assert.equal(5, MathStuff.division(10, 2));
     });
+
+    it("10 / 9 returns 1", () => {
+      assert.equal(10 / 9, MathStuff.division(10, 9));
+    });
+
+    it("-10 / 2 returns -5", () => {
+      assert.equal(-5, MathStuff.division(-10, 2));
+    });
   });
 });
