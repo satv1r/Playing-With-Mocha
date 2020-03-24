@@ -25,7 +25,7 @@ describe("Math", () => {
       assert.equal(0, MathStuff.subtract(3, 3));
     });
 
-    it("10 - 20 returns 0", () => {
+    it("10 - 20 returns -10", () => {
       assert.equal(-10, MathStuff.subtract(10, 20));
     });
   });
