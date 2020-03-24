@@ -1,0 +1,25 @@
+{
+  "name": "playing-with-mocha",
+  "version": "1.0.0",
+  "description": "playing with mocha",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/356Sandhu/Playing-With-Mocha.git"
+  },
+  "author": "Satvir Sandhu",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/356Sandhu/Playing-With-Mocha/issues"
+  },
+  "homepage": "https://github.com/356Sandhu/Playing-With-Mocha#readme",
+  "devDependencies": {
+    "mocha": "^7.1.1"
+  },
+  "dependencies": {
+    "assert": "^2.0.0"
+  }
+}
