@@ -17,7 +17,7 @@
   },
   "homepage": "https://github.com/356Sandhu/Playing-With-Mocha#readme",
   "devDependencies": {
-    "mocha": "^7.1.1"
+    "mocha": "^10.2.0"
   },
   "dependencies": {
     "assert": "^2.0.0"
